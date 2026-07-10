@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+        }
+
+        .off {
+            font-weight: 550;
+        }
+
+        .buy {
+            text-decoration: underline;
+        }
+
+        .buy:hover {
+            cursor: pointer;
+            color: red;
+            text-decoration: underline;
+        }
+
+
+        .offer {
+            background-color: yellow;
+            height: 35px;
+            text-align: center;
+            padding: 10px 0 0 0;
+            margin: 0 0 20px 0;
+            font-family: 'poppins', sans-serif;
+
+        }
+
+        .navbar {
+            border: 1px solid rgb(181, 173, 173);
+            display: flex;
+            align-items: center;
+            margin: 25px auto;
+            width: 90vw;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            box-shadow: 0 0 15px white;
+
+        }
+
+
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+
+        .logo,
+        .navoption,
+        .right {
+            display: flex;
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .logo img {
+            width: 178px;
+        }
+
+        .navoption {
+            column-gap: 10px;
+        }
+
+        .navoption li {
+            width: 90px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+        }
+
+
+
+        .right {
+            margin-left: auto;
+            column-gap: 45px;
+            align-items: center;
+
+        }
+
+        .download {
+            background-color: rgb(243, 243, 138);
+            width: 121px;
+            line-height: 40px;
+            border-radius: 10px;
+        }
+
+        .hero {
+            font-family: 'poppins', sans-serif;
+            margin-top: 200px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        .hero p img {
+            vertical-align: middle;
+        }
+
+        .hero1 {
+            text-align: center;
+            margin: 40px auto;
+            color: rgb(135, 151, 164);
+            font-size: 20px;
+            width: 35%;
+
+        }
+
+        .p-1:hover,
+        .p-4:hover,
+        .p-5:hover,
+        .p-6:hover {
+
+            background-color: rgb(183, 171, 171);
+        }
+
+        .table {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 420px);
+            grid-template-rows: repeat(4, 200px);
+            gap: 20px;
+        }
+
+        .item {
+            border-radius: 10px;
+            background-color: #F2F0EC;
+            text-align: center;
+            line-height: 35px;
+            padding: 20px 10px 20px 10px;
+        }
+
+        .item a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .item button {
+            cursor: pointer;
+            width: 150px;
+            height: 35px;
+            border-radius: 7px;
+            font-weight: 500;
+            background-color: #ffd741;
+            border: none;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 5px;
+            font-family: 'poppins' , sans-serif;
+        }
+
+        .item h5,
+        h6 {
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="offer">
+            <p>UE Core & Enterprices Subscription:
+                <span class="off">10% off</span>
+                on your second year&nbsp&nbsp&nbsp&nbsp
+                <span class="buy">Buy Now → </span>
+            </p>
+            <div class="navbar">
+                <ul class="logo">
+                    <li><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg" alt="logo">
+                    </li>
+                </ul>
+                <ul class="navoption">
+                    <li class="p-1">Product</li>
+                    <li class="p-2">Buy</li>
+                    <li class="p-3">Renew</li>
+                    <li class="p-4">Support</li>
+                    <li class="p-5">Learn</li>
+                    <li class="p-6">Company</li>
+                </ul>
+                <ul class="right">
+                    <li class="download">Download</li>
+                    <li class="language">English</li>
+                    <li class="search">🔎︎</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <p>
+            Download UltraEdit for Windows <img
+                Src="https://www.ultraedit.com/wp-content/uploads/2023/01/image-1-1-1.svg" alt="logo">
+        </p>
+    </div>
+    <div class="hero1">
+        <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+            editor.</p>
+    </div>
+    <div class="table">
+        <div class="grid">
+            <div class="item item-1">
+                <h2>English</h2>
+                <h3>Includes all languages</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>687E4D569E05292E91955A92B73813AFE563348D187FA331154280B2CA4695E7</h6>
+            </div>
+            <div class="item item-2">
+                <h2>Deutsch
+                </h2>
+                <h3> German</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>DF3ABD7128D5F69C240E4C71578C870F450E30AA6307362CA4BDA151EB8856D9</h6>
+            </div>
+            <div class="item item-3">
+                <h2>Italiano</h2>
+                <h3>Italian</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>7822BFD2BB5B18949C025A340213FE1D8957EFA36B0576B407C95F16E83BC5B3</h6>
+            </div>
+            <div class="item item-4">
+                <h2>Español</h2>
+                <h3> Spanish</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>AB24C3EBBE05C78AAFEE922FB35A12D1F52AFE699F0DD5AA2C6EA053876C0A70</h6>
+            </div>
+            <div class="item item-5">
+                <h2>français</h2>
+                <h3>French</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>49C6EBF5F5D4A19C6D6C3EF52F6866083FA8A74A9AEBE500C9045BD964854961</h6>
+            </div>
+            <div class="item item-6">
+                <h2>Português brasileiro</h2>
+                <h3>Brazilian Portuguese</h3>
+                <a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>2D3571E568D523F32FE01A167AEA5A789B0544D4F343430DA1172CDB46F04944</h6>
+            </div>
+            <div class="item item-7">
+                <h2>日本</h2>
+                <h3>Japanese</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>82572D6A0B87C51F9153377E2F6F67DD624A57138060703C9134F6DABA9A0ADA</h6>
+            </div>
+            <div class="item item-8">
+                <h2>한국어</h2>
+                <h3>Korean</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>F38B3A7055F9D7125ECB41CD027E93C7CE7DD42ADB9965AABC3964E6209E61A3</h6>
+            </div>
+            <div class="item item-9">
+                <h2>华语</h2>
+                <h3>Chinese</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>7AB5F421529B65E299718E1703140A1E65301D3340C4B354AF6BC3D8C21F1CCD</h6>
+            </div>
+            <div class="item item-10">
+                <h2>華語</h2>
+                <h3>Traditional Chinese</h3><a href="ue_allinone.exe">
+                    <h4><button>Download 64-bit</button></h4>
+                </a>
+                <h5>SHA256</h5>
+                <h6>CFD0C58B1199AE94B8B293B5DABB73DFDA311EC15406B6040A59CC44CE7C69E1</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
